@@ -66,37 +66,37 @@ def get_route_data(start, destination):
         ("Main OPD", "Physiotherapy"): (
             "Walk into the yard, on your left, look for the first pathway with the parking lot on the right and walk towards the building.",
             "physioeyeear.png"),
-        ("Main Gate to Emergency"): (
+        ("Main Gate", "Emergency"): (
             "Walk straight from the main gate, take the immediate right path past security, and follow the red emergency overhead signs to the A&E entrance.",
               "emergency.png"),
-        ("Main OPD to Main Pharmacy"): (
+        ("Main OPD", "Main Pharmacy"): (
             "Exit the Main OPD waiting area, walk down the main covered walkway on your left, and the Main Pharmacy counter is right beside the cashier block.",
                 "pharmacy.png"),
-        ("Main Gate to Family Health"): (
+        ("Main Gate", "Family Health"): (
             "Walk into the yard, on your left look for the first pathway with the parking lot on the right, and walk towards the lab building.",
                "Family Health.png"),
-        ("Main OPD to X-Ray"): (
+        ("Main OPD","X-Ray"): (
             "From OPD, follow the right corridor past the consultation rooms. The Radiology/X-Ray department is located directly opposite the blood bank.",
                 "xray.png"),
-        ("Emergency to Blood Bank"): (
+        ("Emergency", "Blood Bank"): (
              "Exit Emergency through the side door, walk straight across the central courtyard, and the Blood Bank entrance will be on your left.",
                  "bloodbank.png"),
-        ("Main Gate to Maternity"): (
+        ("Main Gate", "Maternity"): (
               "Walk straight past the main gate entrance, look to your right, and follow the paved pathway straight towards the Maternity block.",
                    "maternity.png"),
-        ("Main OPD to Eye Clinic"): (
+        ("Main OPD", "Eye Clinic"): (
                "Head out from the OPD entrance, turn right down the central corridor, and follow the blue wall markings to the Eye Clinic reception.",
                     "eyeclinic.png"),
-        ("Main OPD to ENT"): (
+        ("Main OPD", "ENT"): (
                "From the main waiting hall, take the left hallway leading toward the specialty clinics. ENT is the second door on your right.",
                    "ent.png"),
-        ("Main OPD to Physiotherapy"): (
+        ("Main OPD", "Physiotherapy"): (
                 "Exit the rear OPD door, cross the covered walkway towards the rehab wing, and Physiotherapy is at the end of the hall.",
                     "physiotherapy.png"),
-        ("Laboratory to Pharmacy Annex"): (
+        ("Laboratory", "Pharmacy Annex"): (
                  "Leave the lab, head straight past the courtyard benches, and the Pharmacy Annex pickup window is on your right.",
                      "pharmlab.png"),
-        ("Main Gate to Mortuary"): (
+        ("Main Gate", "Mortuary"): (
                  "From the main gate, follow the outer service road to the far left boundary of the hospital grounds.",
                       "mortuary.png"),
     }
