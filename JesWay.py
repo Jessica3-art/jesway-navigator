@@ -43,47 +43,44 @@ def get_route_data(start, destination):
     """Returns directions and image file name for given start and destination."""
     routes = {
         ("Main Gate", "Maternity"): (
-            "Walk straight past the gate. Look to your right and walk towards the building.",
+            "From the main gate, look to your right and take the first path headed toward the white and red building. Take the pathway to your left and walk straight down the cemented walkway. Pass the second building on your left and keep walking toward the third building on your left. Watch for signs—there is a pathway leading to your right that leads straight to Maternity.",
             "maternity.png"),
         ("Main Gate", "Administration"): (
-            "Go up from the main gate, take the first path to your right and walk straight to the red and white building.",
+            "From the main gate, walk straight and pass the first pathway on your right. Continue to the second pathway and head toward the story building directly on your left. That is the Administration block.",
             "administration.png"),
         ("Main OPD", "Laboratory"): (
-            "Walk into the yard, on your left, look for the first pathway with the parking lot on the right and walk towards the building.",
+           "From Main OPD, walk forward a short distance and turn right. Walk straight ahead toward the Main Pharmacy—the Laboratory will be directly in front of you.",
             "laboratory.png"),
         ("Main Gate", "Main OPD"): (
-            "After entering the yard, walk straight and watch out for signs with Main OPD on.",
+           "From the main gate, walk straight ahead while watching for signs directing to the OPD. Bypass the initial signs and keep heading straight until you reach the open building area with benches, a front desk, and a large hospital layout map displayed above. That is the Main OPD.",
             "Main OPD.png"),
         ("Main OPD", "X-Ray"): (
-            "Head down the west corridor from Main OPD. X-Ray department is opposite Room 4.",
+            "From Main OPD, turn directly to your left and take the first pathway. Walk straight to the end, then turn right. Look up for the signs indicating Accident and X-Ray.",
             "accidentXray.png"),
         ("Main OPD", "Main Pharmacy"): (
-            "Enter through Main OPD, walk down the paved driveway. Main Pharmacy block is on your left.",
+            "From Main OPD, walk forward a short distance to the first pathway on your right. Walk straight along the path—you will see Main Pharmacy directly opposite the Laboratory. Watch for signs along the way.",
             "pharmlab.png"),
         ("Main OPD", "Eye Clinic"): (
-            "Head down the west corridor from Main OPD. Eye Clinic is right past the hallway.",
+            "From Main OPD, walk forward and pass the first entrance. Walk toward the building directly in front of you, then move to your right. Watch on your left for signs indicating the Eye Department. Look for the blue and white door marked Eye Department.",
             "eyeclinic.png"),
         ("Main OPD", "Physiotherapy"): (
-            "Walk into the yard, on your left, look for the first pathway with the parking lot on the right and walk towards the building.",
+           "From Main OPD, walk straight ahead, passing the first pathways on both your left and right. Walk toward the two buildings directly in front of you and move to your left. Look for the large door with Physiotherapy written on it.",
             "physioeyeear.png"),
         ("Main Gate", "Emergency"): (
-            "Walk straight from the main gate, take the immediate right path past security, and follow the red emergency overhead signs to the A&E entrance.",
+            "From the main gate, walk straight ahead, passing the OPD and the car park. Continue walking straight down the tarred road. Walk toward the ambulance or the first building directly in front of you after passing the OPD. That building is Emergency.",
               "emergency.png"),
         ("Main OPD", "Main Pharmacy"): (
-            "Exit the Main OPD waiting area, walk down the main covered walkway on your left, and the Main Pharmacy counter is right beside the cashier block.",
+           "From Main OPD, walk forward a short distance to the first pathway on your right. Walk straight along the path—you will see Main Pharmacy directly opposite the Laboratory. Watch for signs along the way.",
                 "pharmacy.png"),
-        ("Main Gate", "Family Health"): (
-            "Walk into the yard, on your left look for the first pathway with the parking lot on the right, and walk towards the lab building.",
+        ("Main OPD", "Family Health"): (
+            "From Main OPD, walk straight ahead, passing all pathways on your left and right. Bypass the building directly in front of you and continue until you reach a long pathway on your left. Walk to the very end of this pathway toward the building directly facing you. Watch for signs indicating Family Health.",
                "Family Health.png"),
         ("Main OPD","X-Ray"): (
-            "From OPD, follow the right corridor past the consultation rooms. The Radiology/X-Ray department is located directly opposite the blood bank.",
+            "From Main OPD, turn directly to your left and take the first pathway. Walk straight to the end, then turn right. Look up for the signs indicating Accident and X-Ray.",
                 "xray.png"),
         ("Emergency", "Blood Bank"): (
-             "Exit Emergency through the side door, walk straight across the central courtyard, and the Blood Bank entrance will be on your left.",
+            "From Emergency, walk straight along the path, passing the OPD. Turn left onto the pathway and follow it until you reach the first building. Always look up at the ceiling for signboards marked Blood Bank.",
                  "bloodbank.png"),
-        ("Main Gate", "Maternity"): (
-              "Walk straight past the main gate entrance, look to your right, and follow the paved pathway straight towards the Maternity block.",
-                   "maternity.png"),
         ("Main OPD", "Eye Clinic"): (
                "Head out from the OPD entrance, turn right down the central corridor, and follow the blue wall markings to the Eye Clinic reception.",
                     "eyeclinic.png"),
