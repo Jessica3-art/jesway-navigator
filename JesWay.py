@@ -94,7 +94,7 @@ def get_route_data(start, destination):
                  "Leave the lab, head straight past the courtyard benches, and the Pharmacy Annex pickup window is on your right.",
                      "pharmannex.png"),
         ("Main Gate", "Mortuary"): (
-                 "From the main gate, follow the outer service road to the far left boundary of the hospital grounds.",
+                 "From the main gate, walk to the back of the emergency building, walk on the partway leading to the last building at the back",
                       "mortuary.png"),
     }
 
