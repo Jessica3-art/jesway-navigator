@@ -71,13 +71,13 @@ def get_route_data(start, destination):
               "emergency.png"),
         ("Main OPD", "Main Pharmacy"): (
            "From Main OPD, walk forward a short distance to the first pathway on your right. Walk straight along the path—you will see Main Pharmacy directly opposite the Laboratory. Watch for signs along the way.",
-                "pharmacy.png"),
+                "main pharmacy admin.png"),
         ("Main OPD", "Family Health"): (
             "From Main OPD, walk straight ahead, passing all pathways on your left and right. Bypass the building directly in front of you and continue until you reach a long pathway on your left. Walk to the very end of this pathway toward the building directly facing you. Watch for signs indicating Family Health.",
-               "Family Health.png"),
+               "familyhealth.png"),
         ("Main OPD","X-Ray"): (
             "From Main OPD, turn directly to your left and take the first pathway. Walk straight to the end, then turn right. Look up for the signs indicating Accident and X-Ray.",
-                "xray.png"),
+                "accidentXray.png"),
         ("Emergency", "Blood Bank"): (
             "From Emergency, walk straight along the path, passing the OPD. Turn left onto the pathway and follow it until you reach the first building. Always look up at the ceiling for signboards marked Blood Bank.",
                  "bloodbank.png"),
@@ -86,13 +86,13 @@ def get_route_data(start, destination):
                     "eyeclinic.png"),
         ("Main OPD", "ENT"): (
                "From the main waiting hall, take the left hallway leading toward the specialty clinics. ENT is the second door on your right.",
-                   "ent.png"),
+                   "entphysioeye.png"),
         ("Main OPD", "Physiotherapy"): (
                 "Exit the rear OPD door, cross the covered walkway towards the rehab wing, and Physiotherapy is at the end of the hall.",
-                    "physiotherapy.png"),
+                    "physioeyeear.png"),
         ("Laboratory", "Pharmacy Annex"): (
                  "Leave the lab, head straight past the courtyard benches, and the Pharmacy Annex pickup window is on your right.",
-                     "pharmlab.png"),
+                     "pharmannex.png"),
         ("Main Gate", "Mortuary"): (
                  "From the main gate, follow the outer service road to the far left boundary of the hospital grounds.",
                       "mortuary.png"),
